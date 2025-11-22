@@ -1,4 +1,5 @@
 # EXPERIMENT-2-OPTICAL-COMMUNICATION
+
 ## 🔍 EX.NO: 2 – Verification of Fiber Losses
 
 **Aim:**  
@@ -14,30 +15,44 @@ To measure propagation and bending losses for two wavelengths in plastic fiber.
 **Theory:**  
 - Losses due to absorption, scattering, bending  
 - Plastic fiber loss ~180 dB/km  
-- Bending loss increases with reduced loop diameter  
+- Bending loss increases with reduced loop diameter
+
+  ![WhatsApp Image 2025-11-19 at 22 11 12_daa96037](https://github.com/user-attachments/assets/a3427a48-d2e7-415c-a343-42e7345096c4)
 
 **Procedure:**  
 - Setup for 660nm and 950nm measurements  
 - Measure output voltages for 1m and 3m fibers  
-- Calculate attenuation \( a \) using:  
-V1/V2 = e [ -a (L1+L2 ) ] 
+- Calculate attenuation \( a \) using:
+  V1/V2 = e [ -a (L1+L2 ) ] 
 - Bend fiber and record output vs diameter  
 
 **Tabulation:**
 
+![WhatsApp Image 2025-11-19 at 22 09 55_d9a0ac84](https://github.com/user-attachments/assets/ebe252ea-b486-4a58-8377-100b26d92c06)
+
 ### Propagation Loss
 
-| Fiber Length | Input Amplitude (V) | Output Amplitude (V) |
-|--------------|---------------------|------------------------|
-|              |                     |                        |
+| Fiber Length     | Input Amplitude (V)        | Output Amplitude (V)     |
+|------------------|----------------------------|--------------------------|
+|    1             |       5                    |       10                 |
+|    0.5           |       5                    |       14                 |
 
 ### Bending Loss
 
 | Bending Diameter | Input Amplitude (V) | Output Amplitude (V) |
-|------------------|---------------------|------------------------|
-|                  |                     |                        |
+|------------------|----------------------------|--------------------------|
+|    1     for 8cm |       5                    |       10.3               |
+|    0.5  for 6.4cm|       5                    |       9.76               |
+    
+**Result:** 
 
-**Result:**  
-Attenuation and bending loss characteristics verified.
+The experiment successfully verified the losses in a fiber-optic link:
+
+The propagation (transmission) loss was measured over different lengths of the fiber for two wavelengths (660 nm & 950 nm) and found to increase with length, confirming the expected attenuation behaviour.
+
+The bending loss was observed by varying the loop diameter of the fiber and measuring output amplitude — as the bend diameter decreased, the output dropped, verifying increased bending loss.
+
+Hence, the aim of measuring both propagation loss and bending loss characteristics of the fiber was achieved.
+
 
 ---
